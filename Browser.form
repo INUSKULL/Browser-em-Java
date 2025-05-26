@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="Browser">
+  <grid id="27dc6" binding="Url" layout-manager="GridLayoutManager" row-count="8" column-count="4" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="0" left="0" bottom="0" right="0"/>
+    <constraints>
+      <xy x="20" y="4" width="500" height="509"/>
+    </constraints>
+    <properties>
+      <background color="-8420988"/>
+      <foreground color="-6386043"/>
+    </properties>
+    <border type="none"/>
+    <children>
+      <component id="8f32f" class="javax.swing.JLabel" binding="babel">
+        <constraints>
+          <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-15950046"/>
+          <foreground color="-13966080"/>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="fce35" class="javax.swing.JTextField" binding="battleField">
+        <constraints>
+          <grid row="0" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <font name="Monospaced"/>
+        </properties>
+      </component>
+      <component id="4a96c" class="javax.swing.JList" binding="listCj">
+        <constraints>
+          <grid row="1" column="2" row-span="6" col-span="1" vsize-policy="6" hsize-policy="2" anchor="0" fill="3" indent="0" use-parent-layout="false">
+            <preferred-size width="100" height="50"/>
+          </grid>
+        </constraints>
+        <properties/>
+      </component>
+      <component id="f1166" class="javax.swing.JButton" binding="seek">
+        <constraints>
+          <grid row="0" column="0" row-span="2" col-span="1" vsize-policy="0" hsize-policy="3" anchor="9" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <enabled value="true"/>
+          <font name="Georgia"/>
+          <text value="Procurar"/>
+          <verticalAlignment value="0"/>
+        </properties>
+      </component>
+      <component id="f71ae" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="1" column="1" row-span="5" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Histórico"/>
+        </properties>
+      </component>
+      <component id="48ae4" class="javax.swing.JEditorPane" binding="bigSmoke">
+        <constraints>
+          <grid row="7" column="2" row-span="1" col-span="1" vsize-policy="6" hsize-policy="6" anchor="0" fill="3" indent="0" use-parent-layout="false">
+            <preferred-size width="300" height="200"/>
+          </grid>
+        </constraints>
+        <properties>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="f7a12" class="javax.swing.JButton" binding="guia">
+        <constraints>
+          <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="1" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Georgia"/>
+          <text value="Hide"/>
+        </properties>
+      </component>
+      <component id="9f2d4" class="javax.swing.JButton" binding="retornar">
+        <constraints>
+          <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Georgia"/>
+          <text value="Voltar"/>
+        </properties>
+      </component>
+      <component id="55ab8" class="javax.swing.JButton" binding="proceder">
+        <constraints>
+          <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Georgia"/>
+          <text value="Avançar"/>
+        </properties>
+      </component>
+      <component id="f941d" class="javax.swing.JButton" binding="destroy">
+        <constraints>
+          <grid row="5" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Georgia"/>
+          <text value="Apagar"/>
+        </properties>
+      </component>
+      <component id="3ba36" class="javax.swing.JButton" binding="clea">
+        <constraints>
+          <grid row="6" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Georgia"/>
+          <text value="Limpar"/>
+        </properties>
+      </component>
+      <component id="2d409" class="javax.swing.JScrollBar" binding="scrull">
+        <constraints>
+          <grid row="0" column="3" row-span="8" col-span="1" vsize-policy="6" hsize-policy="0" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties/>
+      </component>
+    </children>
+  </grid>
+</form>
